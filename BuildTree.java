@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 import java.util.*;
 
@@ -107,7 +107,7 @@ public class BuildTree {
         Node root = buildTree(inorder, postorder);
 
         if (root == null) {
-            System.out.println("Result: No tree / no soution");
+            System.out.println("Result: No tree / no solution");
         } else {
             System.out.println("Result: Tree constructed successfully");
         }
